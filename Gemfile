@@ -11,6 +11,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
+# Devise
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -33,6 +35,14 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+# Bootstrap
+gem "twitter-bootstrap-rails"
+# JQuery
+gem 'jquery-rails'
+
+gem 'devise-bootstrap-views'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
