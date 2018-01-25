@@ -41,6 +41,8 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem "twitter-bootstrap-rails"
 # JQuery
 gem 'jquery-rails'
+# Font Awesome
+gem "font-awesome-rails"
 
 gem 'devise-bootstrap-views'
 
