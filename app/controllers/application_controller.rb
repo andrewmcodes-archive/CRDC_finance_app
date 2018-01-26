@@ -1,3 +1,4 @@
+# Application Controller
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   # Before any action from ApplicationController, we need an authenticated user

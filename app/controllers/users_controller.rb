@@ -1,3 +1,4 @@
+# Users Controller
 class UsersController < ApplicationController
 
   def my_portfolio
@@ -8,7 +9,7 @@ class UsersController < ApplicationController
   def my_friends
     @friendships = current_user.friends
   end
-
+  # TODO-Linter
   def search
     if params[:search_param].blank?
       flash.now[:danger] = "You have entered an empty search string"

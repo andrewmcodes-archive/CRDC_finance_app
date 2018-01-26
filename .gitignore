@@ -4,6 +4,7 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+
 # Ignore bundler config.
 /.bundle
 
@@ -22,4 +23,9 @@
 
 .byebug_history
 .solargraph.yml
-.vscode/tasks.json
+
+# Ignore VS Code Config
+.vscode
+
+# Ignore RubyMine Config
+.idea
