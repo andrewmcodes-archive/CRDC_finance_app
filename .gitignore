@@ -25,7 +25,7 @@
 .solargraph.yml
 
 # Ignore VS Code Config
-.vscode
+/.vscode
 
 # Ignore RubyMine Config
-.idea
+/.idea
